@@ -26,5 +26,21 @@
 3. Mantenha todos os valores padrões e clique para criar.
 4. Aguarde o cluster ser criado
 5. Clique em Connect
-6. No item 1, `Add a connection IP address`, clique em `Allow access from anywhere` e depois em `Add IP Address`
-7. No item 2, `Create a Database User`, coloque um username e senha e clique em `Create Database User`
+6. No item 1, `Add a connection IP address`, clique em `Allow access from anywhere` e depois em `Add IP Address` (não precisa mudar o valor dos inputs)
+7. No item 2, `Create a Database User`, coloque um username e senha e clique em `Create Database User`. Anote o username e senha gerados.
+8. Clique em `Choose a connection method`
+9. Clique em `Connect your application`
+10. Certifique-se de que está selecionado `NodeJS` e a versão mais recente e compatível com o seu Node e clique no botão `Copy` e depois em `Close`. Cole a string de conexão que foi copiada no mesmo lugar que anotou o username e senha
+11. Atualize a string de conexão com os dados de username, senha e banco de dados
+
+String copiada:
+
+```
+mongodb+srv://admin:<password>@cluster0.jup2c.mongodb.net/<dbname>?retryWrites=true&w=majority
+```
+
+String com dados atualizados:
+
+```
+mongodb+srv://admin:vkOIY6wRI6DJb8Es@cluster0.jup2c.mongodb.net/ocean_bancodados_16_12_2020?retryWrites=true&w=majority
+```
