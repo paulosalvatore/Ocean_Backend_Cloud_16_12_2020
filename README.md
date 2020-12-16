@@ -44,3 +44,5 @@ String com dados atualizados:
 ```
 mongodb+srv://admin:vkOIY6wRI6DJb8Es@cluster0.jup2c.mongodb.net/ocean_bancodados_16_12_2020?retryWrites=true&w=majority
 ```
+
+12. Copie a string de conexão com os dados atualizados e use para conectar no NoSQLBooster ou no MongoDB Compass
