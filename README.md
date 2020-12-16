@@ -24,3 +24,7 @@
 1. Faça o login na MongoDB Atlas (https://account.mongodb.com/account/login)
 2. Crie uma organização, um projeto e um cluster (na opção Build a Cluster)
 3. Mantenha todos os valores padrões e clique para criar.
+4. Aguarde o cluster ser criado
+5. Clique em Connect
+6. No item 1, `Add a connection IP address`, clique em `Allow access from anywhere` e depois em `Add IP Address`
+7. No item 2, `Create a Database User`, coloque um username e senha e clique em `Create Database User`
