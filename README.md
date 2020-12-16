@@ -1,4 +1,4 @@
-# Instruções para subir os projetos na nuvem
+# Instruções para subir o projeto Backend na nuvem
 
 1. Fazer o login no GitHub
 2. Fazer um fork desse projeto
@@ -17,4 +17,10 @@
 13. Para testar se o build está funcionando, precisamos fazer um deploy manual de início. Na sessão `Manual deploy`, clique no botão `Deploy Branch`
 14. Clique no botão `View`, isso irá abrir uma aba do navegador com o seu app
   Note que ele fica carregando infitamente, isso significa que tem um erro na nossa aplicação. Logo depois de um tempo, a mensagem `Application error` aparece
+15. Corrija os erros da aplicação e faça o commit novamente que o Heroku irá fazer o deploy automático.
 
+# Instruções para criação do MongoDB na Nuvem
+
+1. Faça o login na MongoDB Atlas (https://account.mongodb.com/account/login)
+2. Crie uma organização, um projeto e um cluster (na opção Build a Cluster)
+3. Mantenha todos os valores padrões e clique para criar.
